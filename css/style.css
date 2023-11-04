@@ -1,0 +1,174 @@
+img{
+    width: 12%;
+    height: 50px;
+    border-radius: 10%;
+}
+
+ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-image:url(../img/ala.jpg);
+    background-size: 100% 100% !important;
+    height: 200px;
+    
+}
+
+button{
+ 
+    width: 10%;
+    height: 40px;
+    background: darkcyan;
+    border: none;
+    color: white;
+    text-shadow:0 30px 7px #a9a9a9;
+   
+}
+
+label::before{
+    content: "*";
+    color: red;
+}
+
+
+
+
+button:hover{
+    background-color: darkorange;
+}
+
+
+#contenido{
+   display: flex; 
+ flex-direction: row;
+   justify-content: space-around;
+   height: 730px;
+}
+
+#nosotros{
+    padding: 40px;
+    height: 120px;
+    color: black;
+    width: 30%;
+    text-align: center;
+}   
+
+#contactenos{
+    width: 80%;
+    height: 180px;
+    color: orange;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+.form{
+    padding: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+input,label{
+    width: 40%;
+    height: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+input#boton{
+    background: purple;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+footer{
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    height:200px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+fieldset{
+   
+    width: 80%;
+    text-align: center;
+}
+
+  
+legend {
+    width: 80px;
+    display: inline;
+    margin-left: calc(50% - 35px - 8px);
+}
+
+.imagen-hijo-3 img{
+    position: absolute;
+    left:10px;
+    margin:100px;
+    bottom: -20px;
+    width: 10%;
+    height: 125px;
+}
+
+.imagen-hijo-3 img:hover{
+    transform: scale(1.5);
+}
+
+.imagen-hijo-3 img{
+    transition:2s;
+}
+
+h1:hover{
+    text-shadow: 30px -20px 0px rgb(0, 138, 138);
+}
+
+h1{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
